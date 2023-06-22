@@ -4,8 +4,6 @@ DiceGame = () => {
         snd.play()
     
 
-
-
     let player1 = Math.floor(Math.random()*6)+1;
     let player1dice = `images/D-${player1}.jpg`;
     document.getElementById('check1').setAttribute('src',player1dice);

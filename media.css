@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    .container1{
+        display: block;
+        justify-content: center;
+        gap: 100px;
+    }
+    .btn{
+        margin-left: 45vw;
+    }
+    .dice{
+        text-align: center; 
+        margin-top: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .D{
+        height: 8rem;
+        border-radius: 35px;
+    }
+    .btn{
+        margin-left: 40vw;
+    }
+    .dice{
+        text-align: center; 
+        margin-top: 40px;
+    }
+}
