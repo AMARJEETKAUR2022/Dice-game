@@ -5,24 +5,43 @@
         justify-content: center;
         gap: 100px;
     }
-    .btn{
-        margin-left: 45vw;
-    }
-    .dice{
-        text-align: center; 
-        margin-top: 40px;
-    }
-}
-@media (max-width: 400px) {
     .D{
         height: 8rem;
         border-radius: 35px;
     }
-    .btn{
-        margin-left: 40vw;
-    }
     .dice{
         text-align: center; 
         margin-top: 40px;
+    }
+    .btn{
+        margin-left: 45vw;
+        justify-content: center;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .container1{
+        display: block;
+        justify-content: center;
+        gap: 100px;
+    }
+    .D{
+        height: 7rem;
+        border-radius: 33px;
+    }
+    .btn{
+        margin-left: 40vw;
+        margin-top: 20px;
+    }
+    .dice{
+        text-align: center; 
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
